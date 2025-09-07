@@ -29,3 +29,6 @@ print("Hello,  \"friend\"");
 #if you want to pass a Variable to the string then you must write "f" outside the Double Quotations. f characters specifies that the string is not an ordinary string, it has something specil in it
 
 print(f"Hey, {name}");
+
+name = input("What's your name? ").strip().title();
+print(f"Hello, {name}");
